@@ -15,10 +15,8 @@
 
 店はメニュー登録時に栄養情報を登録し、
 ユーザーは栄養情報の管理ができる。
-https://cacoo.com/diagrams/veKSLEw1gWBJKBzs-5B331.png
+https://cacoo.com/diagrams/veKSLEw1gWBJKBzs/5B331
 
-# db
-https://cacoo.com/diagrams/veKSLEw1gWBJKBzs-4B8D7.png
 
 # 実装済み機能(一部imageと異なる)
 ■ユーザー
