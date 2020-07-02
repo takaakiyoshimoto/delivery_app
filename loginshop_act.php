@@ -40,7 +40,7 @@ if(password_verify($lpw,$val["lpw"])){
   header("Location: index.php");
 }else{
   //Login失敗時(Logout経由)
-  header("Location: login.php");
+  header("Location: loginshop.php");
 }
 
 exit();

@@ -4,7 +4,7 @@ require "funcs.php";
 $pdo = db_con();
 session_start();
 
-$stmt = $pdo->prepare("SELECT * FROM user_table");
+$stmt = $pdo->prepare("SELECT * FROM shop_table");
 $status = $stmt->execute();
 //SQL実行時にエラーがある場合STOP
 if($status==false){
@@ -13,7 +13,7 @@ if($status==false){
 $view="";
 while( $result = $stmt->fetch(PDO::FETCH_ASSOC)){
     //.=で変数をつなぐことができる
-    $view.="<p>"."ユーザ名:".$result['user_name']." 住所:".$result['user_address']."</p>";
+    $view.="<p>"."ショップ名:".$result['shop_name']." 住所:".$result['shop_address']."</p>";
 }
 ?>
 

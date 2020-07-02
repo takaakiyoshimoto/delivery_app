@@ -45,7 +45,7 @@ if($status==3){
 }elseif($status==5){
     $view ="<h3>ようこそ「".$_SESSION['user_name']."」さん</h3>";
     $view .="<p><a href='user_list.php'>ユーザ一覧</a></p>";
-    $view .="<p><a href='user_reserve.php'>ショップ一覧</a></p>";
+    $view .="<p><a href='shop_list.php'>ショップ一覧</a></p>";
     $view .= "<p><a href='logout.php'>ログアウト</a></p>";
 
 }
